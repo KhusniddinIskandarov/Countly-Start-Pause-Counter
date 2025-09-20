@@ -1,0 +1,67 @@
+/* Umumiy sozlamalar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+}
+
+/* Container */
+.container {
+  text-align: center;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  width: 300px;
+}
+
+/* Raqam (h1) */
+.container h1 {
+  font-size: 5rem;
+  margin-bottom: 30px;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Tugmalar */
+.container button {
+  padding: 12px 25px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+/* Start tugmasi */
+.container button:first-of-type {
+  background: #4CAF50;
+  color: white;
+}
+
+.container button:first-of-type:hover {
+  background: #45a049;
+  transform: scale(1.05);
+}
+
+/* Pause tugmasi */
+.container button:last-of-type {
+  background: #f44336;
+  color: white;
+}
+
+.container button:last-of-type:hover {
+  background: #d32f2f;
+  transform: scale(1.05);
+}
